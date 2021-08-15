@@ -1,0 +1,45 @@
+.fab-icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 25px
+}
+.hero-section{
+    margin-top: 125px;
+}
+.link-btn{
+    text-decoration: none;
+    background-color: #0d6efd ;
+    color: white;
+    border: 0px;
+    padding: 7px 15px;
+    border-radius:  5px;
+}
+.link-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .card-title{
+        font-size: 18px;
+        color: blue;
+    }
+    .card-text{
+        font-size: 16px;
+    }
+ 
+    
+  }

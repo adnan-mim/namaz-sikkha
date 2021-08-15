@@ -1,0 +1,125 @@
+audio{
+ background-color: rgb(13 110 253);
+    padding: 15px;
+    border-radius: 5px ;
+}
+.fab-icon{
+  height: 40px;
+  width: 40px;
+  border-radius: 25px
+}
+
+.hero-div{
+  margin-top: 125px;
+}
+.card{
+box-shadow: 1px 5px 5px 2px grey;
+}
+
+h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: blue;
+}
+.cng-p{
+  font-size: 15px;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    
+    audio{
+        width: 100%;
+        background-color: rgb(13 110 253);
+        padding: 15px;
+        border-radius: 5px ;
+      }
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    audio{
+        width: 100%;
+        background-color: rgb(13 110 253);
+        padding: 15px;
+        border-radius: 5px ;
+      }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    audio{
+        width: 100%;
+        background-color: rgb(13 110 253);
+        padding: 15px;
+        border-radius: 5px ;
+      }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    
+    audio{
+        width: 100%;
+        background-color: rgb(13 110 253);
+          padding: 15px;
+          border-radius: 5px ;
+      }
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+     
+    audio{
+        width: 100%;
+        background-color: rgb(13 110 253);
+          padding: 15px;
+          border-radius: 5px ;
+      }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    audio{
+         width: 100%;
+         background-color: rgb(13 110 253);
+           padding: 15px;
+           border-radius: 5px ;
+       }
+    
+  }
